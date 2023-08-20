@@ -1,7 +1,47 @@
 table {
-    width: 100%;
-    border-collapse: collapse; 
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
 }
-.th.information-header {
-    width: 30%;
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
 }
+table tr:nth-of-type(3),
+table tr:nth-of-type(5),
+table tr:nth-of-type(7),
+table tr:nth-of-type(9) {
+  background-color: rgb(187, 187, 187);
+  border-top: 2px dashed rgb(132, 132, 132);
+}
+table tr:nth-of-type(2n) td:nth-child(1),
+table tr:nth-of-type(4n) td:nth-child(1),
+table tr:nth-of-type(6n) td:nth-child(1),
+table tr:nth-of-type(8n) td:nth-child(1) {
+  border-bottom: 2px dashed transparent;
+}
+table tr:nth-of-type(3n) td:nth-child(1),
+table tr:nth-of-type(5n) td:nth-child(1),
+table tr:nth-of-type(7n) td:nth-child(1),
+table tr:nth-of-type(9n) td:nth-child(1) {
+  background-color: white;
+}
+table tr:nth-of-type(9) td {
+    border:rgb(132, 132, 132)
+  }
+  table tr:nth-of-type(3n) td:nth-child(2),
+table tr:nth-of-type(3n) td:nth-child(6),
+table tr:nth-of-type(3n) td:nth-child(8),
+table tr:nth-of-type(3n) td:nth-child(10),
+table tr:nth-of-type(5n) td:nth-child(2),
+table tr:nth-of-type(5n) td:nth-child(6),
+table tr:nth-of-type(5n) td:nth-child(8),
+table tr:nth-of-type(5n) td:nth-child(10),
+table tr:nth-of-type(7n) td:nth-child(2),
+table tr:nth-of-type(7n) td:nth-child(6),
+table tr:nth-of-type(7n) td:nth-child(8),
+table tr:nth-of-type(7n) td:nth-child(10) {
+    border-right: 2px dashed transparent;
+}
+  
