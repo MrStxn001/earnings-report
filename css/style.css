@@ -1,17 +1,30 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
 .header{
     text-align: center;
 }
+.header h1, .header h2:not(.specific-h2) {
+    padding: 4px; 
+    margin: 0;
+  }
 .subheader{
-    margin-left: 20px; 
+    margin: 0;
+    padding-bottom: 0px;
 }
-
+.full-width-line {
+    border: 1px solid black; 
+    margin-bottom: 13px; 
+    padding-top: 0px;
+  }
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 th, td {
-  border: 1px solid black;
+  border: 1.5px solid black;
   padding: 8px;
   text-align: center;
 }
@@ -57,4 +70,10 @@ table tr:nth-of-type(6n) td:nth-child(8),
 table tr:nth-of-type(6n) td:nth-child(10){
     border-right: 2px rgb(132, 132, 132);
 }
-  
+table tr:nth-of-type(1n) td:nth-child(1) {
+margin: 20px;
+}
+table tr:nth-of-type(9) td:nth-child(1),
+table tr:nth-of-type(9) td:nth-child(13) {
+    border-right: 1px solid black; 
+}
