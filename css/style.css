@@ -1,3 +1,10 @@
+.header{
+    text-align: center;
+}
+.subheader{
+    margin-left: 20px; 
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -28,7 +35,7 @@ table tr:nth-of-type(9n) td:nth-child(1) {
   background-color: white;
 }
 table tr:nth-of-type(9) td {
-    border:rgb(132, 132, 132)
+    border:rgb(132, 132, 132);
   }
   table tr:nth-of-type(3n) td:nth-child(2),
 table tr:nth-of-type(3n) td:nth-child(6),
@@ -43,5 +50,11 @@ table tr:nth-of-type(7n) td:nth-child(6),
 table tr:nth-of-type(7n) td:nth-child(8),
 table tr:nth-of-type(7n) td:nth-child(10) {
     border-right: 2px dashed transparent;
+}
+table tr:nth-of-type(6n) td:nth-child(2),
+table tr:nth-of-type(6n) td:nth-child(6),
+table tr:nth-of-type(6n) td:nth-child(8),
+table tr:nth-of-type(6n) td:nth-child(10){
+    border-right: 2px rgb(132, 132, 132);
 }
   
