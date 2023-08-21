@@ -79,9 +79,11 @@ table tr:nth-of-type(1n) td:nth-child(1) {
 margin: 20px;
 }
 table tr:nth-of-type(9) td:nth-child(1),
-table tr:nth-of-type(9) td:nth-child(13) {
+table tr:nth-of-type(9) td:nth-child(13),
+table tr:nth-of-type(9) td:nth-child(14)
+{
     border-right: 1px solid black; 
 }
 .wider-cell {
-    width: 13%; /* Adjust the percentage value as needed */
+    width: 13%; 
 }
