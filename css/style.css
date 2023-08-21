@@ -5,13 +5,18 @@
 .header{
     text-align: center;
 }
-.header h1, .header h2:not(.specific-h2) {
+.header h1, .header h2 {
     padding: 3px; 
     margin: 0;
   }
 .subheader{
     margin: 0;
     padding-bottom: 0px;
+    display: block;
+  white-space: pre;
+}
+.month{
+    font-weight: normal;
 }
 .full-width-line {
     border: 1px solid black; 
@@ -76,4 +81,7 @@ margin: 20px;
 table tr:nth-of-type(9) td:nth-child(1),
 table tr:nth-of-type(9) td:nth-child(13) {
     border-right: 1px solid black; 
+}
+.wider-cell {
+    width: 13%; /* Adjust the percentage value as needed */
 }
