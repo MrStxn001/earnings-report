@@ -6,7 +6,7 @@
     text-align: center;
 }
 .header h1, .header h2:not(.specific-h2) {
-    padding: 4px; 
+    padding: 3px; 
     margin: 0;
   }
 .subheader{
